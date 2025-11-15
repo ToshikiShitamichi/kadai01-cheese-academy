@@ -1,0 +1,288 @@
+/* ここから下に記載していく */
+h3,
+p {
+    line-height: 30px;
+}
+
+h1,
+h2,
+h3,
+#about,
+#news,
+#access,
+#contact,
+footer {
+    text-align: center;
+    text-shadow: 0.5px 0.5px white;
+}
+
+img {
+    width: 100%;
+}
+
+
+#about h2,
+#news h2 {
+    color: #ffd61a;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+section {
+    margin-top: 60px;
+}
+
+h2,
+h4 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+h4,
+p {
+    margin-bottom: 40px;
+}
+
+.course {
+    display: flex;
+}
+
+.course-l {
+    justify-content: left;
+}
+
+.course-r {
+    justify-content: right;
+}
+
+.course-img {
+    width: 50%;
+}
+
+.course-text {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    width: calc(50% - 100px);
+    background-color: rgba(250, 250, 250, 0.6);
+}
+
+.news-3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.news {
+    margin: 15px;
+    width: 300px;
+}
+
+.news:hover {
+    background-color: rgba(250, 250, 250, 0.8);
+}
+
+
+.news-date {
+    margin: 30px 0;
+}
+
+button {
+    margin-top: 30px;
+    justify-content: center;
+    height: 60px;
+    width: 300px;
+    font-size: 18px;
+    background-color: #ffd61a;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    opacity: 50%;
+}
+
+#access {
+    background-color: rgba(250, 250, 250, 0.6);
+}
+
+table {
+    margin-top: 60px;
+    margin: 0 auto;
+}
+
+th {
+    padding-left: 16px;
+    padding-right: 64px;
+    text-align: left;
+    align-items: self-start;
+    height: 50px;
+    vertical-align: top;
+}
+
+td {
+    padding-left: 8px;
+    text-align: left;
+    height: 36px;
+}
+
+iframe {
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+form table th,
+form table td {
+    border: solid;
+    border-color: #bfbfbf;
+}
+
+form table th {
+    border-left: none;
+}
+
+form table td {
+    border-right: none;
+}
+
+.input-text {
+    margin: 8px;
+    height: 36px;
+    width: 328px;
+}
+
+form p {
+    margin: 24px 0;
+}
+
+textarea {
+    margin: 8px;
+    width: 328px;
+    height: 108px;
+}
+
+main {
+    margin-bottom: 140px;
+}
+
+footer {
+    background-color: #707070;
+    color: white;
+    padding: 30px;
+}
+
+/* オリジナル改修 */
+/* ナビゲーションバー固定 */
+/* 背景画像設定・スクロール固定 */
+
+/* 参考①:HTML&CSSデザインレシピ集
+https://gihyo.jp/book/2025/978-4-297-14850-8 */
+
+
+header img {
+    width: auto;
+    height: 80px;
+}
+
+nav {
+    opacity: 80%;
+    font-size: 21px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    /* z-index: 10000; */
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-shadow: 1px 1px white;
+}
+
+nav a {
+    margin-right: 50px;
+    color: black;
+}
+
+nav a:hover {
+    color: #ffd61a;
+    text-shadow: 1px 1px black;
+}
+
+html {
+    scroll-padding-top: 50px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../img/mainbg.png);
+    background-size: cover;
+    background-color: rgba(255, 245, 235, 0.5);
+    background-blend-mode: lighten;
+    background-attachment: fixed;
+}
+
+.main-visual {
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+.main-visual div {
+    color: white;
+    text-shadow: 1px 1px black;
+
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.subtitle {
+    width: 100%;
+    font-size: 32px;
+}
+
+#loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/mainbg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.loading-title {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 60px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.remove-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+.cheese {
+    color: #ffd61a;
+    
+}
